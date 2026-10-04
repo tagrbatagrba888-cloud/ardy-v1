@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>أرضي | الاستثمار الزراعي</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">أ</span><div><b>أرضي</b><small>الاستثمار الزراعي</small></div></div>
+      <nav>
+        <button data-page="home" class="nav-link active">الرئيسية</button>
+        <button data-page="projects" class="nav-link">المشروعات</button>
+        <button data-page="portfolio" class="nav-link">محفظتي</button>
+        <button data-page="documents" class="nav-link">المستندات</button>
+      </nav>
+      <button class="profile-btn" id="profileBtn">حسابي</button>
+    </header>
+
+    <main>
+      <section id="home" class="page active">
+        <div class="hero">
+          <div>
+            <span class="eyebrow">منصة استثمار زراعي رقمية</span>
+            <h1>استثمر في مشروعات زراعية<br>بشكل واضح وآمن</h1>
+            <p>استعرض المشروعات، تعرّف على تفاصيلها، وتابع وحداتك الاستثمارية وتقاريرك من مكان واحد.</p>
+            <div class="hero-actions">
+              <button class="primary" data-page="projects">استعرض المشروعات</button>
+              <button class="secondary" data-page="portfolio">عرض محفظتي</button>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="leaf">🌿</div>
+            <span>مشروع نشط</span>
+            <strong>مشروع الوادي الزراعي</strong>
+            <small>100 فدان · تمويل مستهدف 10,000,000 ج.م</small>
+            <div class="progress"><i style="width:62%"></i></div>
+            <div class="row"><span>62% ممول</span><b>100 ج.م / وحدة</b></div>
+          </div>
+        </div>
+
+        <div class="section-head"><div><span class="eyebrow">لماذا أرضي؟</span><h2>كل ما تحتاجه في مكان واحد</h2></div></div>
+        <div class="cards three">
+          <article class="info-card"><div class="icon">📊</div><h3>متابعة الاستثمار</h3><p>تابع قيمة وحداتك وحالتها وتقارير المشروعات بسهولة.</p></article>
+          <article class="info-card"><div class="icon">📄</div><h3>مستندات واضحة</h3><p>الوصول إلى مستندات المشروع والتقارير والملفات المرتبطة باستثمارك.</p></article>
+          <article class="info-card"><div class="icon">🔐</div><h3>حماية وحوكمة</h3><p>تصميم يعتمد على التحقق من الهوية والصلاحيات وسجل العمليات.</p></article>
+        </div>
+      </section>
+
+      <section id="projects" class="page">
+        <div class="page-title"><div><span class="eyebrow">الفرص المتاحة</span><h1>المشروعات الزراعية</h1></div><span class="pill green">1 مشروع نشط</span></div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-image"><span>🌾</span><label>تمويل مفتوح</label></div>
+            <div class="project-body">
+              <div class="tag">زراعي · أرضي</div>
+              <h2>مشروع الوادي الزراعي</h2>
+              <p>مشروع زراعي بمساحة 100 فدان مع خطة تشغيل وإنتاج وتوزيعات وفق المستندات المعتمدة للمشروع.</p>
+              <div class="stats"><div><small>المساحة</small><b>100 فدان</b></div><div><small>سعر الوحدة</small><b>100 ج.م</b></div><div><small>المستهدف</small><b>10 مليون</b></div></div>
+              <div class="progress"><i style="width:62%"></i></div>
+              <div class="row"><span>6.2 مليون ج.م</span><span>62%</span></div>
+              <button class="primary full" id="investBtn">استعراض المشروع والاستثمار</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="portfolio" class="page">
+        <div class="page-title"><div><span class="eyebrow">استثماراتي</span><h1>محفظتي</h1></div></div>
+        <div class="balance-grid">
+          <div class="balance-card main"><small>القيمة الحالية للمحفظة</small><strong>25,000 ج.م</strong><span>+ 1,250 ج.م منذ آخر تقييم</span></div>
+          <div class="balance-card"><small>الوحدات</small><strong>250</strong><span>وحدة استثمارية</span></div>
+          <div class="balance-card"><small>المشروعات</small><strong>1</strong><span>مشروع نشط</span></div>
+        </div>
+        <div class="table-card"><div class="section-head"><h2>استثماراتي الحالية</h2></div><div class="investment-row"><div class="avatar">🌱</div><div class="grow"><b>مشروع الوادي الزراعي</b><small>250 وحدة · 25,000 ج.م</small></div><span class="status">نشط</span><button class="link-btn">التفاصيل</button></div></div>
+      </section>
+
+      <section id="documents" class="page">
+        <div class="page-title"><div><span class="eyebrow">ملفاتك</span><h1>المستندات</h1></div></div>
+        <div class="doc-list">
+          <article class="doc"><span class="doc-icon">📄</span><div><b>مستندات مشروع الوادي الزراعي</b><small>ملفات المشروع · PDF</small></div><button>فتح</button></article>
+          <article class="doc"><span class="doc-icon">🧾</span><div><b>كشف الاستثمار</b><small>كشف الوحدات والعمليات</small></div><button>فتح</button></article>
+          <article class="doc"><span class="doc-icon">🔐</span><div><b>حالة التحقق من الهوية</b><small>الحساب موثق</small></div><span class="verified">موثق</span></article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div><b>أرضي</b><span>منصة استثمار زراعي</span></div>
+      <span>© 2026 أرضي. جميع الحقوق محفوظة.</span>
+    </footer>
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <button class="close" id="close">×</button>
+      <span class="eyebrow">مشروع الوادي الزراعي</span>
+      <h2>استثمار في وحدات المشروع</h2>
+      <p>هذه واجهة تجريبية للويب. عند ربط الـBackend سيتم تنفيذ التحقق من الحساب والأهلية والدفع والتوثيق وفق الهيكل القانوني والتراخيص المعتمدة.</p>
+      <label>عدد الوحدات</label>
+      <div class="counter"><button id="minus">−</button><strong id="qty">1</strong><button id="plus">+</button></div>
+      <div class="total"><span>الإجمالي</span><b id="total">100 ج.م</b></div>
+      <button class="primary full" id="confirm">متابعة</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
